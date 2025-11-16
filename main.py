@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     i = 3
-    while i < 5:
+    while i < 4:
         fileName = f"F_{i}"
         G = Graph.fan_graph(i+1)
         output_dir = fileName
