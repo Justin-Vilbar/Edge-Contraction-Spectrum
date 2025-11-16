@@ -29,7 +29,7 @@ class SpectrumPDFVisualizer:
         self.min_graph_size = 3.0       
         self.page_pad_inches = 0.18
         self.axis_pad_x = 4
-        self.axis_pad_y = 2.2
+        self.axis_pad_y = 1.75
 
     def _load_spectrum(self, path):
         with open(path, "r") as f:
@@ -194,7 +194,7 @@ class SpectrumPDFVisualizer:
         for idx, L in step_indices.items():
             layer_nodes[L].append(idx)
 
-        x_gap, y_gap = 15.5, 10.0
+        x_gap, y_gap = 7.5, 5.0
         fig_width  = max(self.base_page_width,  x_gap * max(len(v) for v in layer_nodes.values()) + 3.5)
         fig_height = max(self.base_page_height, y_gap * len(layers))
         fig, ax = plt.subplots(figsize=(fig_width, fig_height))
@@ -205,12 +205,12 @@ class SpectrumPDFVisualizer:
             y = fig_height - (i * y_gap)
             n = len(nodes)
             if n == 1:
-                pos[nodes[0]] = (fig_width / 2.0, y)
+                pos[nodes[0]] = (fig_width / 2.0, y+2)
             else:
                 span = x_gap * (n - 1)
                 x0 = fig_width / 2.0 - span / 2.0
                 for j, node in enumerate(nodes):
-                    pos[node] = (x0 + j * x_gap, y)
+                    pos[node] = (x0 + j * x_gap, y+3)
 
         xs = [p[0] for p in pos.values()]
         ys = [p[1] for p in pos.values()]
@@ -219,7 +219,7 @@ class SpectrumPDFVisualizer:
         for k, (x, y) in list(pos.items()):
             pos[k] = (x - x_mid, y - y_mid)
 
-        extra_y_space = 4.0  
+        extra_y_space = 0.0  
         ax.set_xlim(min(xs) - self.axis_pad_x - x_mid, max(xs) + self.axis_pad_x - x_mid)
         ax.set_ylim(min(ys) - self.axis_pad_y - y_mid - extra_y_space,
                     max(ys) + self.axis_pad_y - y_mid + extra_y_space)
@@ -296,17 +296,17 @@ class SpectrumPDFVisualizer:
 
         for i, idx in enumerate(DG.nodes):
             x, y = pos[idx]
-            ax.text(x, y + 2.0, f"G{idx+1}", ha='center', va='center',
-                    fontsize=12, zorder=11)
+            #ax.text(x, y + 2.0, f"G{idx+1}", ha='center', va='center',
+                    #fontsize=12, zorder=11)
 
         for i in range(len(layers) - 1):
-            y_data = (fig_height - ((i + 1) * y_gap)) - y_mid
+            y_data = (fig_height - ((i + 3) * y_gap)) - y_mid
             y_axes = (y_data - ax.get_ylim()[0]) / (ax.get_ylim()[1] - ax.get_ylim()[0])
-            ax.text(0.01, y_axes, f"Level {i+1}",
-                    transform=ax.transAxes, ha='left', va='center',
-                    fontsize=12, fontweight='bold', zorder=11)
+            #ax.text(0.01, y_axes, f"Level {i+1}",
+                    #transform=ax.transAxes, ha='left', va='center',
+                    #fontsize=12, fontweight='bold', zorder=11)
 
-        ax.set_title(rf"Edge Contraction Spectrum $\Sigma({self.fileName})$", fontsize=60)
+        #ax.set_title(rf"Edge Contraction Spectrum $\Sigma({self.fileName})$", fontsize=60)
         ax.set_axis_off()
         return fig
 

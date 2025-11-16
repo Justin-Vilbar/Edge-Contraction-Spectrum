@@ -1,100 +1,88 @@
 import os
-import torch
-import networkx as nx
 import json
+import networkx as nx
+from typing import Any, Dict, List, Tuple, Optional
 
-class GraphTorch:
+
+class Graph:
     """
-    Graph representation that stores adjacency matrix as a PyTorch tensor
-    for GPU-based operations like edge contractions.
+    Lightweight graph wrapper around a NetworkX graph.
+    Stores:
+      - the underlying NetworkX graph
+      - a fixed node ordering
+      - an adjacency matrix as a plain Python list-of-lists (no PyTorch)
     """
-    def __init__(self, nx_graph: nx.Graph, device=None):
+    def __init__(self, nx_graph: nx.Graph, device: Optional[str] = None):
         """
-        Initialize from a NetworkX graph
-        :param nx_graph: input graph (NetworkX)
-        :param device: 'cpu' or 'cuda', default auto-detect
+        Initialize from a NetworkX graph.
         """
-        self.nx_graph = nx_graph
-        self.nodes = list(nx_graph.nodes())
-        self.index_map = {node: i for i, node in enumerate(self.nodes)}  
-        self.reverse_map = {i: node for node, i in self.index_map.items()}  
+        self.nx_graph: nx.Graph = nx_graph.copy()
 
-        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.adj = self.to_adjacency_tensor().to(self.device)
+        self.nodes: List[Any] = list(self.nx_graph.nodes())
+        self._node_index: Dict[Any, int] = {n: i for i, n in enumerate(self.nodes)}
 
-    def to_adjacency_tensor(self):
-        """Convert NetworkX graph to PyTorch adjacency matrix."""
+        self.adj: List[List[int]] = self._build_adjacency_matrix()
+
+        self.device = device or "cpu"
+
+    def _build_adjacency_matrix(self) -> List[List[int]]:
+        """Create a 0/1 adjacency matrix."""
         n = len(self.nodes)
-        adj = torch.zeros((n, n), dtype=torch.int8)
+        mat = [[0] * n for _ in range(n)]
+
         for u, v in self.nx_graph.edges():
-            i, j = self.index_map[u], self.index_map[v]
-            adj[i, j] = 1
-            adj[j, i] = 1
-        return adj
+            i = self._node_index[u]
+            j = self._node_index[v]
+            mat[i][j] = 1
+            mat[j][i] = 1
 
-    def num_nodes(self):
-        return self.adj.shape[0]
+        return mat
 
-    def get_edges(self):
-        """Return list of edges by their labels."""
-        edges = []
-        idx_edges = torch.nonzero(self.adj, as_tuple=False)
-        for i, j in idx_edges:
-            if i < j:
-                edges.append((self.reverse_map[int(i)], self.reverse_map[int(j)]))
-        return edges
+    def to_networkx(self) -> nx.Graph:
+        return self.nx_graph.copy()
 
-    def to_networkx(self):
-        """Convert the current adjacency matrix back to a NetworkX graph."""
-        G = nx.Graph()
-        G.add_nodes_from(self.nodes)
-        for i in range(self.num_nodes()):
-            for j in range(i + 1, self.num_nodes()):
-                if self.adj[i, j] == 1:
-                    G.add_edge(self.reverse_map[i], self.reverse_map[j])
-        return G
+    def num_nodes(self) -> int:
+        return len(self.nodes)
 
-    def save_to_json(self, filename, output_dir=None):
-        """
-        Save adjacency matrix and graph structure to JSON file.
-        Args:
-            filename: Name of the file to save
-            output_dir: Output Directory
-        """
+    def get_edges(self) -> List[Tuple[Any, Any]]:
+        return list(self.nx_graph.edges())
+
+    def save_to_json(self, filename: str, output_dir: Optional[str] = None):
+        """Save nodes + adjacency matrix."""
         project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
         graphs_dir = os.path.join(project_root, "graphs")
 
         if output_dir:
-            save_dir = os.path.join(graphs_dir, output_dir)
+            out_dir = os.path.join(graphs_dir, output_dir)
         else:
-            save_dir = graphs_dir
+            out_dir = graphs_dir
 
-        os.makedirs(save_dir, exist_ok=True)
-        filepath = os.path.join(save_dir, filename)
-        
+        os.makedirs(out_dir, exist_ok=True)
+        filepath = os.path.join(out_dir, filename)
+
         data = {
             "nodes": self.nodes,
-            "index_map": self.index_map,
-            "device": self.device,
-            "adjacency_matrix": self.adj.cpu().tolist(),
-            "graph_type": "undirected"
+            "adjacency_matrix": self.adj,
         }
+
         with open(filepath, "w") as f:
             json.dump(data, f, indent=4)
-        print(f"[+] Graph saved to {filepath}")
 
         return filepath
 
     def __repr__(self):
         return f"GraphTorch(num_nodes={self.num_nodes()}, device='{self.device}')"
 
-    def fan_graph(n):
-        """Creates Fan Graph"""
+    @staticmethod
+    def fan_graph(n: int) -> nx.Graph:
         G = nx.Graph()
         for i in range(n):
             G.add_node(i)
+
         for i in range(1, n - 1):
             G.add_edge(i, i + 1)
+
         for i in range(1, n):
             G.add_edge(0, i)
+
         return G

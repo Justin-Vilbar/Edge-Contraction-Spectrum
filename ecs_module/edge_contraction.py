@@ -1,20 +1,21 @@
-import torch
 import networkx as nx
 import json
 import os
-from .graph import GraphTorch
+from .graph import Graph
+
 
 class EdgeContraction:
     """
     Handles batching of edge contractions and stores unique contraction levels.
-    Also tracks actual parent → child contraction relationships between levels.
+    Tracks parent → child contraction relationships between levels.
     """
     def __init__(self, json_path: str = "", output_dir: str | None = None):
         self.graph = self.load_from_json(json_path)
-        self.contraction_levels: dict[int, list[GraphTorch]] = {0: [self.graph]}
+
+        self.contraction_levels: dict[int, list[Graph]] = {0: [self.graph]}
 
         self.level_graph_ids: dict[int, list[int]] = {0: [0]}
-        self.next_global_id: int = 1 
+        self.next_global_id: int = 1
 
         self.edges: list[tuple[int, int]] = []
 
@@ -28,50 +29,50 @@ class EdgeContraction:
 
         os.makedirs(self.output_path, exist_ok=True)
 
-    def load_from_json(self, json_path: str) -> GraphTorch:
+    def load_from_json(self, json_path: str) -> Graph:
         """Load a graph from adjacency JSON file."""
         if not json_path:
             raise ValueError("JSON graph path not provided.")
+
         with open(json_path, "r") as f:
             data = json.load(f)
 
-        adj_matrix = torch.tensor(data["adjacency_matrix"], dtype=torch.int8)
-        nx_graph = nx.Graph()
-        nx_graph.add_nodes_from(data["nodes"])
+        nodes = data["nodes"]
+        adj_matrix = data["adjacency_matrix"]
 
-        n = len(data["nodes"])
+        G = nx.Graph()
+        G.add_nodes_from(nodes)
+
+        n = len(nodes)
         for i in range(n):
             for j in range(i + 1, n):
                 if adj_matrix[i][j] == 1:
-                    nx_graph.add_edge(data["nodes"][i], data["nodes"][j])
+                    G.add_edge(nodes[i], nodes[j])
 
-        return GraphTorch(nx_graph)
+        return Graph(G)
 
-    def contract_edge(self, graph_torch: GraphTorch, u, v) -> GraphTorch:
-        """Contract edge (u, v) into one vertex and return the resulting GraphTorch."""
+    def contract_edge(self, graph_torch: Graph, u, v) -> Graph:
+        """Contract edge (u, v) into one vertex and return the resulting Graph."""
         G = graph_torch.to_networkx()
         G = nx.contracted_nodes(G, u, v, self_loops=False)
-        return GraphTorch(G)
+        return Graph(G)
 
-    def _find_isomorphic_index(self, new_graph: GraphTorch, graphs: list[GraphTorch]) -> int | None:
-        """Return the index of an isomorphic graph in `graphs`, or None if no match."""
+    def _find_isomorphic_index(self, new_graph: Graph, graphs: list[Graph]) -> int | None:
+        """Return index of an isomorphic graph or None if not found."""
         G_new = new_graph.to_networkx()
+
         for idx, g in enumerate(graphs):
             if nx.is_isomorphic(G_new, g.to_networkx()):
                 return idx
         return None
 
     def generate_next_level(self, level: int):
-        """
-        Generate all unique graphs for the next contraction level and 
-        record parent to child relationships as (parent_idx, child_idx) at the level pair.
-        """
-        next_level_graphs: list[GraphTorch] = []
+        next_level_graphs: list[Graph] = []
         parent_child_pairs: list[tuple[int, int]] = []
 
-        current_level_graphs = self.contraction_levels[level]
+        current_graphs = self.contraction_levels[level]
 
-        for parent_idx, graph in enumerate(current_level_graphs):
+        for parent_idx, graph in enumerate(current_graphs):
             edges = graph.get_edges()
             for (u, v) in edges:
                 contracted_graph = self.contract_edge(graph, u, v)
@@ -88,9 +89,6 @@ class EdgeContraction:
         return next_level_graphs, parent_child_pairs
 
     def build_spectrum(self, max_levels: int | None = None):
-        """
-        Build contraction spectrum up to max_levels or until no contractions possible.
-        """
         level = 0
         print("Building edge contraction spectrum...")
 
@@ -133,7 +131,6 @@ class EdgeContraction:
         print(f"Total contraction edges recorded: {len(self.edges)}")
 
     def save_spectrum_to_json(self, filename: str = "contraction_spectrum.json"):
-        """Save full spectrum into ONE JSON file."""
         filepath = os.path.join(self.output_path, filename)
 
         spectrum_data: dict = {
@@ -143,22 +140,24 @@ class EdgeContraction:
             },
             "graph_ids": {},
             "edges": [
-                {"parent": int(u), "child": int(v)} for (u, v) in self.edges
+                {"parent": int(u), "child": int(v)}
+                for (u, v) in self.edges
             ],
         }
 
         for level, graphs in self.contraction_levels.items():
             level_key = f"level_{level}"
             spectrum_data[level_key] = []
-            level_ids = self.level_graph_ids.get(level, [])
-            spectrum_data["graph_ids"][level_key] = [int(gid) for gid in level_ids]
+            spectrum_data["graph_ids"][level_key] = [
+                int(gid) for gid in self.level_graph_ids.get(level, [])
+            ]
 
             for g in graphs:
                 spectrum_data[level_key].append({
                     "nodes": g.nodes,
                     "edges": g.get_edges(),
                     "num_nodes": g.num_nodes(),
-                    "adjacency_matrix": g.adj.cpu().tolist()
+                    "adjacency_matrix": g.adj  # already list-of-lists
                 })
 
         with open(filepath, "w") as f:
@@ -167,13 +166,10 @@ class EdgeContraction:
         print(f"[+] Full contraction spectrum saved to {filepath}")
 
     def get_spectrum(self):
-        """Return contraction levels as {level: [GraphTorch, ...]}."""
         return self.contraction_levels
 
     def get_edges(self):
-        """Return list of (parent_global_id, child_global_id) contraction edges."""
         return self.edges
 
     def get_level_graph_ids(self):
-        """Return mapping level -> list of global IDs (in level order)."""
         return self.level_graph_ids

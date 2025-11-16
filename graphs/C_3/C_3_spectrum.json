@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "num_levels": 3,
+        "original_graph_nodes": 3
+    },
+    "graph_ids": {
+        "level_0": [
+            0
+        ],
+        "level_1": [
+            1
+        ],
+        "level_2": [
+            2
+        ]
+    },
+    "edges": [
+        {
+            "parent": 0,
+            "child": 1
+        },
+        {
+            "parent": 0,
+            "child": 1
+        },
+        {
+            "parent": 0,
+            "child": 1
+        },
+        {
+            "parent": 1,
+            "child": 2
+        }
+    ],
+    "level_0": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "edges": [
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    2
+                ]
+            ],
+            "num_nodes": 3,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        }
+    ],
+    "level_1": [
+        {
+            "nodes": [
+                0,
+                2
+            ],
+            "edges": [
+                [
+                    0,
+                    2
+                ]
+            ],
+            "num_nodes": 2,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    0
+                ]
+            ]
+        }
+    ],
+    "level_2": [
+        {
+            "nodes": [
+                0
+            ],
+            "edges": [],
+            "num_nodes": 1,
+            "adjacency_matrix": [
+                [
+                    0
+                ]
+            ]
+        }
+    ]
+}

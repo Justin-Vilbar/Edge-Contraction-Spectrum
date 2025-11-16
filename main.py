@@ -1,7 +1,7 @@
 import os
 import time
 import networkx as nx
-from ecs_module import GraphTorch, EdgeContraction, SpectrumPDFVisualizer
+from ecs_module import Graph, EdgeContraction, SpectrumPDFVisualizer
 
 def main():
     start_time = time.time()
@@ -15,7 +15,7 @@ def main():
     print("\n=== Edge Contraction Pipeline ===\n")
 
     print("Step 1: Generating initial graph...")
-    graph_torch = GraphTorch(G)
+    graph_torch = Graph(G)
     graph_file = f"{fileName}.json"
     graph_torch.save_to_json(graph_file, output_dir)
     print(f"✓ Initial graph saved to: {os.path.join(output_path, graph_file)}")
@@ -25,6 +25,10 @@ def main():
     ec = EdgeContraction(json_input_path, output_dir)
     ec.build_spectrum()
     spectrum_file = f"{fileName}_spectrum.json"
+    spectrum_json_dir = os.path.join(current_dir, "spectrum_json")
+    if not os.path.exists(spectrum_json_dir):
+        os.makedirs(spectrum_json_dir)
+    ec.save_spectrum_to_json(os.path.join(spectrum_json_dir, spectrum_file))
     ec.save_spectrum_to_json(spectrum_file)
     print(f"✓ Contraction spectrum saved to: {os.path.join(output_path, spectrum_file)}")
 
@@ -61,11 +65,122 @@ def main():
     print(f"5. Spectrum PNG:   {png_path}")
     print("\nDone! 🎉")
 
+def process_graph_type(graph_type, max_nodes=10):
+    i = 3
+    while i <= max_nodes:
+        if graph_type == "path":
+            fileName = f"P_{i}"
+            G = nx.path_graph(i)
+        elif graph_type == "cycle":
+            fileName = f"C_{i}"
+            G = nx.cycle_graph(i)
+        elif graph_type == "star":
+            fileName = f"K_{{1, {i}}}"
+            G = nx.star_graph(i)
+        elif graph_type == "complete":
+            fileName = f"K_{i}"
+            G = nx.complete_graph(i)
+        elif graph_type == "complete_bipartite_2":
+            fileName = f"K_{{2, {i}}}"
+            G = nx.complete_bipartite_graph(2, i)
+        elif graph_type == "complete_bipartite_3":
+            fileName = f"K_{{3, {i}}}"
+            G = nx.complete_bipartite_graph(3, i)
+        elif graph_type == "fan":
+            fileName = f"F_{i}"
+            G = Graph.fan_graph(i + 1)
+        else:
+            raise ValueError(f"Unknown graph type: {graph_type}")
+        
+        output_dir = fileName
+        main(G, fileName, output_dir) 
+        i += 1
+"""
 if __name__ == "__main__":
-    i = 10
-    while i < 11:
+    print("Processing Path Graphs...")
+    process_graph_type("path")
+
+    print("Processing Cycle Graphs...")
+    process_graph_type("cycle")
+
+    print("Processing Star Graphs...")
+    process_graph_type("star")
+
+    print("Processing Complete Graphs...")
+    process_graph_type("complete")
+
+    print("Processing Complete Bipartite (2) Graphs...")
+    process_graph_type("complete_bipartite_2")
+
+    print("Processing Complete Bipartite (3) Graphs...")
+    process_graph_type("complete_bipartite_3")
+
+    print("Processing Fan Graphs...")
+    process_graph_type("fan")
+"""
+
+if __name__ == "__main__":
+    i = 3
+    while i < 5:
+        fileName = f"F_{i}"
+        G = Graph.fan_graph(i+1)
+        output_dir = fileName
+        i += 1
+        main()
+"""
+PATH GRAPH
+while i < 11:
         fileName = f"P_{i}"
         G = nx.path_graph(i)
         output_dir = fileName
         i += 1
         main()
+
+CYCLE GRAPH
+while i < 11:
+        fileName = f"C_{i}"
+        G = nx.cycle_graph(i)
+        output_dir = fileName
+        i += 1
+        main()
+
+STAR GRAPH
+while i < 11:
+        fileName = f"K_{{1, {i}}}"
+        G = nx.star_graph(i)
+        output_dir = fileName
+        i += 1
+        main()
+
+COMPLETE GRAPH
+while i < 11:
+        fileName = f"K_{i}"
+        G = nx.complete_graph(i)
+        output_dir = fileName
+        i += 1
+        main()
+
+COMPLETE BIPARTITE 2 GRAPH
+while i < 11:
+        fileName = f"K_{{2, {i}}}"
+        G = nx.complete_bipartite_graph(2, i)
+        output_dir = fileName
+        i += 1
+        main()
+
+COMPLETE BIPARTITE 3 GRAPH
+while i < 11:
+        fileName = f"K_{{3, {i}}}"
+        G = nx.complete_bipartite_graph(3, i)
+        output_dir = fileName
+        i += 1
+        main()
+
+FAN GRAPH
+while i < 11:
+        fileName = f"F_{i}"
+        G = Graph.fan_graph(i+1)
+        output_dir = fileName
+        i += 1
+        main()
+"""

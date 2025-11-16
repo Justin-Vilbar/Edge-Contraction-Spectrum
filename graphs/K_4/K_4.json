@@ -11,7 +11,7 @@
         "2": 2,
         "3": 3
     },
-    "device": "cuda",
+    "device": "cpu",
     "adjacency_matrix": [
         [
             0,
