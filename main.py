@@ -3,7 +3,7 @@ import time
 import networkx as nx
 from ecs_module import Graph, EdgeContraction, SpectrumPDFVisualizer
 
-def main():
+def main(G, fileName, output_dir):
     start_time = time.time()
     current_dir = os.path.dirname(os.path.abspath(__file__))
     graphs_dir = os.path.join(current_dir, "graphs")
@@ -65,7 +65,7 @@ def main():
     print(f"5. Spectrum PNG:   {png_path}")
     print("\nDone! 🎉")
 
-def process_graph_type(graph_type, max_nodes=10):
+def process_graph_type(graph_type, max_nodes: int):
     i = 3
     while i <= max_nodes:
         if graph_type == "path":
@@ -95,7 +95,7 @@ def process_graph_type(graph_type, max_nodes=10):
         output_dir = fileName
         main(G, fileName, output_dir) 
         i += 1
-"""
+
 if __name__ == "__main__":
     print("Processing Path Graphs...")
     process_graph_type("path")
@@ -117,70 +117,3 @@ if __name__ == "__main__":
 
     print("Processing Fan Graphs...")
     process_graph_type("fan")
-"""
-
-if __name__ == "__main__":
-    i = 3
-    while i < 4:
-        fileName = f"F_{i}"
-        G = Graph.fan_graph(i+1)
-        output_dir = fileName
-        i += 1
-        main()
-"""
-PATH GRAPH
-while i < 11:
-        fileName = f"P_{i}"
-        G = nx.path_graph(i)
-        output_dir = fileName
-        i += 1
-        main()
-
-CYCLE GRAPH
-while i < 11:
-        fileName = f"C_{i}"
-        G = nx.cycle_graph(i)
-        output_dir = fileName
-        i += 1
-        main()
-
-STAR GRAPH
-while i < 11:
-        fileName = f"K_{{1, {i}}}"
-        G = nx.star_graph(i)
-        output_dir = fileName
-        i += 1
-        main()
-
-COMPLETE GRAPH
-while i < 11:
-        fileName = f"K_{i}"
-        G = nx.complete_graph(i)
-        output_dir = fileName
-        i += 1
-        main()
-
-COMPLETE BIPARTITE 2 GRAPH
-while i < 11:
-        fileName = f"K_{{2, {i}}}"
-        G = nx.complete_bipartite_graph(2, i)
-        output_dir = fileName
-        i += 1
-        main()
-
-COMPLETE BIPARTITE 3 GRAPH
-while i < 11:
-        fileName = f"K_{{3, {i}}}"
-        G = nx.complete_bipartite_graph(3, i)
-        output_dir = fileName
-        i += 1
-        main()
-
-FAN GRAPH
-while i < 11:
-        fileName = f"F_{i}"
-        G = Graph.fan_graph(i+1)
-        output_dir = fileName
-        i += 1
-        main()
-"""

@@ -194,7 +194,7 @@ class SpectrumPDFVisualizer:
         for idx, L in step_indices.items():
             layer_nodes[L].append(idx)
 
-        x_gap, y_gap = 7.5, 5.0
+        x_gap, y_gap = 7.5, 5
         fig_width  = max(self.base_page_width,  x_gap * max(len(v) for v in layer_nodes.values()) + 3.5)
         fig_height = max(self.base_page_height, y_gap * len(layers))
         fig, ax = plt.subplots(figsize=(fig_width, fig_height))
@@ -228,9 +228,14 @@ class SpectrumPDFVisualizer:
 
         edge_colls = nx.draw_networkx_edges(
             DG, pos, ax=ax,
-            arrows=True, arrowstyle='-|>',
-            arrowsize=22, connectionstyle="arc3,rad=0.05",
-            width=2.2, edge_color='#34495E'
+            arrows=True,
+            arrowstyle='-|>',
+            arrowsize=40,
+            min_source_margin=40,
+            min_target_margin=100,
+            connectionstyle="arc3,rad=0.07",
+            width=2.2,
+            edge_color='#34495E'
         )
         self._set_zorder(edge_colls, 2)
 
@@ -285,7 +290,7 @@ class SpectrumPDFVisualizer:
             lc = nx.draw_networkx_edges(g, pos_inset, ax=ax_inset, width=2.0, edge_color='#34495E')
             self._set_clip_on(pc, False)
             self._set_clip_on(lc, False)
-            nx.draw_networkx_labels(g, pos_inset, ax=ax_inset, font_size=7, font_weight="bold")
+            #nx.draw_networkx_labels(g, pos_inset, ax=ax_inset, font_size=7, font_weight="bold")
 
         outline = nx.draw_networkx_nodes(
             DG, pos, ax=ax, node_color='none',

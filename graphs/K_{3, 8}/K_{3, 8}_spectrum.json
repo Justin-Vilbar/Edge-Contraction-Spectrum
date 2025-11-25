@@ -162,23 +162,23 @@
         },
         {
             "parent": 1,
-            "child": 3
+            "child": 2
         },
         {
             "parent": 1,
-            "child": 3
+            "child": 2
         },
         {
             "parent": 1,
-            "child": 3
+            "child": 2
         },
         {
             "parent": 1,
-            "child": 3
+            "child": 2
         },
         {
             "parent": 1,
-            "child": 3
+            "child": 2
         },
         {
             "parent": 1,
@@ -250,7 +250,23 @@
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 5
+        },
+        {
+            "parent": 2,
+            "child": 5
+        },
+        {
+            "parent": 2,
+            "child": 5
+        },
+        {
+            "parent": 2,
+            "child": 5
+        },
+        {
+            "parent": 2,
+            "child": 5
         },
         {
             "parent": 2,
@@ -262,127 +278,135 @@
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
             "parent": 2,
-            "child": 6
+            "child": 7
         },
         {
-            "parent": 3,
-            "child": 6
-        },
-        {
-            "parent": 3,
-            "child": 6
-        },
-        {
-            "parent": 3,
+            "parent": 2,
             "child": 7
         },
         {
             "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 8
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 3,
+            "child": 6
+        },
+        {
+            "parent": 4,
             "child": 7
         },
         {
-            "parent": 3,
+            "parent": 4,
             "child": 7
         },
         {
-            "parent": 3,
+            "parent": 4,
             "child": 7
         },
         {
-            "parent": 3,
+            "parent": 4,
             "child": 7
         },
         {
-            "parent": 3,
+            "parent": 4,
             "child": 7
         },
         {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
-        },
-        {
-            "parent": 3,
-            "child": 8
+            "parent": 4,
+            "child": 7
         },
         {
             "parent": 4,
@@ -394,27 +418,27 @@
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
@@ -422,51 +446,27 @@
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
-        },
-        {
-            "parent": 4,
-            "child": 8
+            "child": 7
         },
         {
             "parent": 5,
@@ -490,15 +490,51 @@
         },
         {
             "parent": 5,
-            "child": 9
+            "child": 10
         },
         {
             "parent": 5,
-            "child": 9
+            "child": 10
         },
         {
-            "parent": 6,
-            "child": 9
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
+        },
+        {
+            "parent": 5,
+            "child": 11
         },
         {
             "parent": 6,
@@ -526,7 +562,7 @@
         },
         {
             "parent": 6,
-            "child": 10
+            "child": 12
         },
         {
             "parent": 6,
@@ -547,6 +583,30 @@
         {
             "parent": 6,
             "child": 10
+        },
+        {
+            "parent": 6,
+            "child": 10
+        },
+        {
+            "parent": 7,
+            "child": 11
+        },
+        {
+            "parent": 7,
+            "child": 11
+        },
+        {
+            "parent": 7,
+            "child": 11
+        },
+        {
+            "parent": 7,
+            "child": 11
+        },
+        {
+            "parent": 7,
+            "child": 11
         },
         {
             "parent": 7,
@@ -578,87 +638,27 @@
         },
         {
             "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 7,
-            "child": 12
-        },
-        {
-            "parent": 8,
             "child": 10
         },
         {
-            "parent": 8,
-            "child": 10
+            "parent": 7,
+            "child": 11
         },
         {
-            "parent": 8,
-            "child": 12
+            "parent": 7,
+            "child": 11
         },
         {
-            "parent": 8,
-            "child": 12
+            "parent": 7,
+            "child": 11
         },
         {
-            "parent": 8,
-            "child": 12
+            "parent": 7,
+            "child": 11
         },
         {
-            "parent": 8,
-            "child": 12
-        },
-        {
-            "parent": 8,
-            "child": 12
-        },
-        {
-            "parent": 8,
-            "child": 10
-        },
-        {
-            "parent": 8,
-            "child": 12
-        },
-        {
-            "parent": 8,
-            "child": 12
-        },
-        {
-            "parent": 8,
-            "child": 12
+            "parent": 7,
+            "child": 11
         },
         {
             "parent": 8,
@@ -706,15 +706,43 @@
         },
         {
             "parent": 9,
-            "child": 13
+            "child": 14
         },
         {
             "parent": 9,
-            "child": 13
+            "child": 14
         },
         {
-            "parent": 10,
-            "child": 13
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
+        },
+        {
+            "parent": 9,
+            "child": 15
         },
         {
             "parent": 10,
@@ -738,7 +766,7 @@
         },
         {
             "parent": 10,
-            "child": 14
+            "child": 16
         },
         {
             "parent": 10,
@@ -755,6 +783,26 @@
         {
             "parent": 10,
             "child": 14
+        },
+        {
+            "parent": 10,
+            "child": 14
+        },
+        {
+            "parent": 11,
+            "child": 15
+        },
+        {
+            "parent": 11,
+            "child": 15
+        },
+        {
+            "parent": 11,
+            "child": 15
+        },
+        {
+            "parent": 11,
+            "child": 15
         },
         {
             "parent": 11,
@@ -782,71 +830,23 @@
         },
         {
             "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 11,
-            "child": 16
-        },
-        {
-            "parent": 12,
             "child": 14
         },
         {
-            "parent": 12,
-            "child": 14
+            "parent": 11,
+            "child": 15
         },
         {
-            "parent": 12,
-            "child": 16
+            "parent": 11,
+            "child": 15
         },
         {
-            "parent": 12,
-            "child": 16
+            "parent": 11,
+            "child": 15
         },
         {
-            "parent": 12,
-            "child": 16
-        },
-        {
-            "parent": 12,
-            "child": 16
-        },
-        {
-            "parent": 12,
-            "child": 14
-        },
-        {
-            "parent": 12,
-            "child": 16
-        },
-        {
-            "parent": 12,
-            "child": 16
+            "parent": 11,
+            "child": 15
         },
         {
             "parent": 12,
@@ -886,15 +886,35 @@
         },
         {
             "parent": 13,
-            "child": 17
+            "child": 18
         },
         {
             "parent": 13,
-            "child": 17
+            "child": 18
         },
         {
-            "parent": 14,
-            "child": 17
+            "parent": 13,
+            "child": 19
+        },
+        {
+            "parent": 13,
+            "child": 19
+        },
+        {
+            "parent": 13,
+            "child": 19
+        },
+        {
+            "parent": 13,
+            "child": 19
+        },
+        {
+            "parent": 13,
+            "child": 19
+        },
+        {
+            "parent": 13,
+            "child": 19
         },
         {
             "parent": 14,
@@ -914,7 +934,7 @@
         },
         {
             "parent": 14,
-            "child": 18
+            "child": 20
         },
         {
             "parent": 14,
@@ -927,6 +947,22 @@
         {
             "parent": 14,
             "child": 18
+        },
+        {
+            "parent": 14,
+            "child": 18
+        },
+        {
+            "parent": 15,
+            "child": 19
+        },
+        {
+            "parent": 15,
+            "child": 19
+        },
+        {
+            "parent": 15,
+            "child": 19
         },
         {
             "parent": 15,
@@ -950,55 +986,19 @@
         },
         {
             "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 15,
-            "child": 20
-        },
-        {
-            "parent": 16,
             "child": 18
         },
         {
-            "parent": 16,
-            "child": 18
+            "parent": 15,
+            "child": 19
         },
         {
-            "parent": 16,
-            "child": 20
+            "parent": 15,
+            "child": 19
         },
         {
-            "parent": 16,
-            "child": 20
-        },
-        {
-            "parent": 16,
-            "child": 20
-        },
-        {
-            "parent": 16,
-            "child": 18
-        },
-        {
-            "parent": 16,
-            "child": 20
+            "parent": 15,
+            "child": 19
         },
         {
             "parent": 16,
@@ -1037,32 +1037,48 @@
             "child": 21
         },
         {
+            "parent": 17,
+            "child": 22
+        },
+        {
+            "parent": 17,
+            "child": 22
+        },
+        {
+            "parent": 17,
+            "child": 22
+        },
+        {
+            "parent": 17,
+            "child": 22
+        },
+        {
             "parent": 18,
             "child": 21
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 21
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 21
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 23
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 21
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 21
         },
         {
             "parent": 18,
-            "child": 22
+            "child": 21
         },
         {
             "parent": 19,
@@ -1074,7 +1090,11 @@
         },
         {
             "parent": 19,
-            "child": 22
+            "child": 21
+        },
+        {
+            "parent": 19,
+            "child": 21
         },
         {
             "parent": 19,
@@ -1082,38 +1102,18 @@
         },
         {
             "parent": 19,
-            "child": 23
-        },
-        {
-            "parent": 19,
-            "child": 23
-        },
-        {
-            "parent": 19,
-            "child": 23
-        },
-        {
-            "parent": 19,
-            "child": 23
-        },
-        {
-            "parent": 20,
             "child": 22
         },
         {
-            "parent": 20,
+            "parent": 19,
+            "child": 21
+        },
+        {
+            "parent": 19,
             "child": 22
         },
         {
-            "parent": 20,
-            "child": 23
-        },
-        {
-            "parent": 20,
-            "child": 23
-        },
-        {
-            "parent": 20,
+            "parent": 19,
             "child": 22
         },
         {
@@ -1138,55 +1138,55 @@
         },
         {
             "parent": 21,
-            "child": 24
+            "child": 25
         },
         {
             "parent": 21,
+            "child": 25
+        },
+        {
+            "parent": 21,
+            "child": 25
+        },
+        {
+            "parent": 21,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 22,
+            "child": 25
+        },
+        {
+            "parent": 23,
             "child": 24
         },
         {
-            "parent": 22,
+            "parent": 23,
             "child": 24
         },
         {
-            "parent": 22,
-            "child": 25
-        },
-        {
-            "parent": 22,
-            "child": 25
-        },
-        {
-            "parent": 22,
-            "child": 25
-        },
-        {
-            "parent": 22,
-            "child": 25
-        },
-        {
             "parent": 23,
-            "child": 25
-        },
-        {
-            "parent": 23,
-            "child": 25
-        },
-        {
-            "parent": 23,
-            "child": 25
-        },
-        {
-            "parent": 23,
-            "child": 25
-        },
-        {
-            "parent": 23,
-            "child": 25
-        },
-        {
-            "parent": 23,
-            "child": 25
+            "child": 24
         },
         {
             "parent": 24,
@@ -1491,14 +1491,6 @@
             "edges": [
                 [
                     0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
                     4
                 ],
                 [
@@ -1524,6 +1516,14 @@
                 [
                     0,
                     10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
                 ],
                 [
                     1,
@@ -1711,6 +1711,203 @@
         {
             "nodes": [
                 0,
+                1,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    6
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    5
+                ],
+                [
+                    1,
+                    6
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    5
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 9,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 2,
                 4,
                 5,
@@ -1723,10 +1920,6 @@
             "edges": [
                 [
                     0,
-                    2
-                ],
-                [
-                    0,
                     4
                 ],
                 [
@@ -1752,6 +1945,10 @@
                 [
                     0,
                     10
+                ],
+                [
+                    0,
+                    2
                 ],
                 [
                     2,
@@ -1900,14 +2097,6 @@
             "edges": [
                 [
                     0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
                     5
                 ],
                 [
@@ -1930,171 +2119,6 @@
                     0,
                     10
                 ],
-                [
-                    1,
-                    5
-                ],
-                [
-                    1,
-                    6
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    5
-                ],
-                [
-                    2,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 9,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
                 [
                     0,
                     1
@@ -2104,56 +2128,32 @@
                     2
                 ],
                 [
-                    0,
+                    1,
                     5
                 ],
                 [
-                    0,
+                    1,
                     6
                 ],
                 [
-                    0,
+                    1,
                     7
                 ],
                 [
-                    0,
+                    1,
                     8
                 ],
                 [
-                    0,
+                    1,
                     9
                 ],
                 [
-                    0,
+                    1,
                     10
                 ],
                 [
                     1,
                     2
-                ],
-                [
-                    1,
-                    5
-                ],
-                [
-                    1,
-                    6
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
                 ],
                 [
                     2,
@@ -2288,6 +2288,489 @@
         {
             "nodes": [
                 0,
+                1,
+                2,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    6
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    6
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 8,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    5
+                ],
+                [
+                    0,
+                    6
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    5
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 8,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    6
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    6
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 8,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 4,
                 5,
                 6,
@@ -2409,495 +2892,409 @@
                     0
                 ]
             ]
-        },
-        {
-            "nodes": [
-                0,
-                2,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    5
-                ],
-                [
-                    0,
-                    6
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    2,
-                    5
-                ],
-                [
-                    2,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 8,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    6
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    6
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 8,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    6
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    2
-                ],
-                [
-                    1,
-                    6
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 8,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
         }
     ],
     "level_4": [
         {
             "nodes": [
                 0,
+                1,
+                2,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 7,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                2,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    6
+                ],
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    6
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 7,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    7
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 7,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 5,
                 6,
                 7,
@@ -2991,403 +3388,6 @@
                     1,
                     0,
                     0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                2,
-                6,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    6
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    2,
-                    6
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 7,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 7,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    2
-                ],
-                [
-                    1,
-                    7
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 7,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
                     0,
                     0,
                     0,
@@ -3400,6 +3400,323 @@
         {
             "nodes": [
                 0,
+                1,
+                2,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 6,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                2,
+                7,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    7
+                ],
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    7
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 6,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    8
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 6,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 6,
                 7,
                 8,
@@ -3479,329 +3796,255 @@
                     0
                 ]
             ]
-        },
-        {
-            "nodes": [
-                0,
-                2,
-                7,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    7
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    2,
-                    7
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 6,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 6,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    2
-                ],
-                [
-                    1,
-                    8
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 6,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ]
-            ]
         }
     ],
     "level_6": [
         {
             "nodes": [
                 0,
+                1,
+                2,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 5,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                2,
+                8,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    8
+                ],
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    2,
+                    8
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 5,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                9,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    9
+                ],
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    9
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    9
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 5,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 7,
                 8,
                 9,
@@ -3859,249 +4102,6 @@
                     1,
                     0,
                     0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                2,
-                8,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    8
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    2,
-                    8
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 5,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 5,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    0,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    2
-                ],
-                [
-                    1,
-                    9
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 5,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    1,
                     0,
                     0
                 ]
@@ -4112,6 +4112,124 @@
         {
             "nodes": [
                 0,
+                1,
+                2,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 4,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
+                1,
+                2,
+                10
+            ],
+            "edges": [
+                [
+                    0,
+                    10
+                ],
+                [
+                    0,
+                    1
+                ],
+                [
+                    0,
+                    2
+                ],
+                [
+                    1,
+                    10
+                ],
+                [
+                    1,
+                    2
+                ],
+                [
+                    2,
+                    10
+                ]
+            ],
+            "num_nodes": 4,
+            "adjacency_matrix": [
+                [
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    0,
+                    1
+                ],
+                [
+                    1,
+                    1,
+                    1,
+                    0
+                ]
+            ]
+        },
+        {
+            "nodes": [
+                0,
                 8,
                 9,
                 10
@@ -4157,141 +4275,23 @@
                     0
                 ]
             ]
-        },
-        {
-            "nodes": [
-                0,
-                2,
-                9,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    9
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    2,
-                    9
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 4,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    0
-                ]
-            ]
-        },
-        {
-            "nodes": [
-                0,
-                1,
-                2,
-                10
-            ],
-            "edges": [
-                [
-                    0,
-                    1
-                ],
-                [
-                    0,
-                    2
-                ],
-                [
-                    0,
-                    10
-                ],
-                [
-                    1,
-                    2
-                ],
-                [
-                    1,
-                    10
-                ],
-                [
-                    2,
-                    10
-                ]
-            ],
-            "num_nodes": 4,
-            "adjacency_matrix": [
-                [
-                    0,
-                    1,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    0,
-                    1,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    0,
-                    1
-                ],
-                [
-                    1,
-                    1,
-                    1,
-                    0
-                ]
-            ]
         }
     ],
     "level_8": [
         {
             "nodes": [
                 0,
-                9,
-                10
+                1,
+                2
             ],
             "edges": [
                 [
                     0,
-                    9
+                    1
                 ],
                 [
                     0,
-                    10
+                    2
                 ]
             ],
             "num_nodes": 3,
@@ -4322,11 +4322,11 @@
             "edges": [
                 [
                     0,
-                    2
+                    10
                 ],
                 [
                     0,
-                    10
+                    2
                 ],
                 [
                     2,
@@ -4357,12 +4357,12 @@
         {
             "nodes": [
                 0,
-                10
+                2
             ],
             "edges": [
                 [
                     0,
-                    10
+                    2
                 ]
             ],
             "num_nodes": 2,
